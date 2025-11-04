@@ -3,7 +3,7 @@
 // creo l'array con le vocali
 const vocali = [ "a", "e", "i", "o", "u"]
 
-const word = 'Word';
+const word = 'Gianfranchescoeoeoeoeoe';
 
 
 // Dichiara la funzione qui.
@@ -13,8 +13,8 @@ function numVocali (parola, array){
     for (let i=0; i<parola.length; i++ ){
          let curLetter = parola[i]
 
-         for(let i=0; i<array.length; i++ ){
-            let curVoc = array[i];
+         for(let j=0; j<array.length; j++ ){
+            let curVoc = array[j];
 
             if(curLetter === curVoc){
                num = num + 1;
